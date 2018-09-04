@@ -1,0 +1,14 @@
+.container {
+  padding: 50px;
+  margin: 25px;
+}
+
+.a {
+  background: aliceblue;
+}
+.b {
+  background: lightblue;
+}
+.c {
+  background: blue;
+}
