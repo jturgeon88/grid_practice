@@ -2,17 +2,15 @@ import React from 'react'
 import { Flex, Box } from '@rebass/grid'
 
 const App = () => (
-  <Flex flexWrap='wrap'>
-    <Box p={3} width={[ 1, 1/2 ]}>
-      <Bar />
-      <Heading my={4} fontSize={[ 5, 6, 7 ]}>Consistent</Heading>
+  <Flex>
+    <Box width={1/2} px={2}>
+      Half width
     </Box>
-    <Box p={3} width={[ 1, 1/2 ]}>
-      <Bar />
-      <Heading my={4} fontSize={[ 5, 6, 7 ]}>Flexible</Heading>
+    <Box width={1/2} px={2}>
+      Half width
     </Box>
   </Flex>
-);
+)
 
 
 export default App;

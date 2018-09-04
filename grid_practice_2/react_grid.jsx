@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Grid from './components/grid';
-import App from './components/app';
+import Home from './components/home';
+// import App from './components/app';
 
 document.addEventListener("DOMContentLoaded", () => {
   ReactDOM.render(
-	  <App />,
+	  <Home />,
 	  document.getElementById('main')
   );
 });
